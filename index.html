@@ -25,7 +25,8 @@
                 type="text" 
                 class="form-control" 
                 placeholder="Any pendig tasks?"
-                v-model= "newTodoName" 
+                v-model= "newTodoName"
+                v-on:keyup.enter="submit" 
                 />
             <div class="input-group-append">
                 <button class="btn btn-outline-secondary" 
